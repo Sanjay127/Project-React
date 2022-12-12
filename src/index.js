@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM  from "react-dom";
-import About from './about';
-import "./about.css";
+import Ending  from './ending';
+import "./ending.css";
 
 
-ReactDOM.render(<About />, document.getElementById('root'));
+ReactDOM.render(<Ending />, document.getElementById('root'));
 
 
 

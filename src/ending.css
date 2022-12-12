@@ -1,0 +1,35 @@
+ul{
+    height: 80px;
+}
+li{
+    background-color:  rgb(131, 152, 170);;
+    display: inline-block;
+    padding: 0 130px;
+    height: 80px;
+    line-height: 70px;
+}
+.ending-img{
+    position: relative;
+    width: 100%;
+    height: 1048px;
+    overflow: hidden;
+    background-image: url("D:\React Js\sanjaym\src\public\ending@3x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    font-size: 24px;
+    color: #fff;
+    font-family: "IBM Plex Serif";
+}
+.correct-icon{
+    position: absolute;
+    top: 300px;
+    right: 700px;
+    border-radius: 30px;
+    width: 340.21px;
+    height: 307.21px;
+    object-fit: 100%;
+    object-position: 100%;
+    image-rendering: auto;
+    
+}
