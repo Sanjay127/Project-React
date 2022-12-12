@@ -1,0 +1,175 @@
+ul{
+    height: 80px;
+    top:auto;
+}
+li{
+    background-color:  rgba(66, 40, 181, 0.138);;
+    display: inline-block;
+    padding: 0 170px;
+    height: 80px;
+    line-height: 70px;
+    top: auto;
+}
+.img-div{
+    position: relative;
+    width: 100%;
+    height: 1048px;
+    overflow: hidden;
+    background-image: url("D:\React Js\sanjaym\src\public\Bedroom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: "IM FELL Double Pica SC";
+}    
+.bedroom-text {
+    position: absolute;
+    top: 170px;
+    right:540px;
+    font-size:40px;
+    display:inline-block;
+    width:auto;
+    height:auto;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:salmon;
+}
+.bedroom-img{
+    position: absolute;
+    top: 300px;
+    right: 70px;
+    border-radius: 60px;
+    width: 394.21px;
+    height: 307.21px;
+    object-fit: auto;
+    object-position: 100%;
+    image-rendering: auto;
+}
+.bedroom1-img{
+    position: absolute;
+    top: 300px;
+    right: 550px;
+    border-radius: 60px;
+    width: 394.21px;
+    height: 307.21px;
+    object-fit: auto;
+    object-position: 100%;
+    image-rendering: auto;
+}
+.bedroom2-img{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    border-radius: 60px;
+    width: 394.21px;
+    height: 307.21px;
+    object-fit: auto;
+    object-position: 100%;
+    image-rendering: auto;
+}
+.bedroom-info{
+    position: absolute;
+    top: 640px;
+    left: 71px;
+    font-size: 32px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 399px;
+    height: 139px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}
+.bedroom1-info{
+    position: absolute;
+    top: 640px;
+    right: 550px;
+    font-size: 32px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 399px;
+    height: 139px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.bedroom2-info{
+    position: absolute;
+    top: 640px;
+    right: 71px;
+    font-size: 32px;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 399px;
+    height: 139px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.rectangle-div5,
+.rectangle-div6,
+.rectangle-div7 {
+  position: absolute;
+  top: 950.67px;
+  right: 1125.09px;
+  background-color: #d9d9d9;
+  width: 285px;
+  height: 45px;
+  transform: rotate(0.22deg);
+  transform-origin: 0 0;
+  
+}
+.rectangle-div6,
+.rectangle-div7 {
+  top: 950.25px;
+  left: 1140.1px;
+  
+}
+.rectangle-div7 {
+  top: 950.44px;
+  left: 620.1px;
+}
+.select-text1 {
+    top: 950px;
+    left: 156.09px;
+    font-size: 36px;
+    font-family: "IM FELL DW Pica SC";
+    display: inline-block;
+    width: 190px;
+    height: 10px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgb(28, 88, 191);
+    cursor: pointer;
+}
+  .select-text2 {
+    top: 950px;
+    right: 140.09px;
+    font-size: 36px;
+    font-family: "IM FELL DW Pica SC";
+    display: inline-block;
+    width: 190px;
+    height: 200px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgb(28, 88, 191);
+    cursor: pointer;
+  }
+  .select-text3 {
+    top: 950px;
+    left: 670.08px;
+    font-size: 36px;
+    font-family: "IM FELL DW Pica SC";
+    display: inline-block;
+    width: 190px;
+    height: 10px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgb(28, 88, 191);
+    cursor: pointer;
+  }
+.select-text1,
+.select-text2,
+.select-text3 {
+  position: absolute;
+  transform-origin: 0 0;
+}
+

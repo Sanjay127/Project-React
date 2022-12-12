@@ -1,0 +1,128 @@
+ul{
+    height: 80px;
+}
+li{
+    background-color:  rgb(161, 172, 181);;
+    display: inline-block;
+    padding: 0 120px;
+    height: 80px;
+    line-height: 70px;
+}
+.contact-info-p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.contact-info-div {
+    top: 285px;
+    left: 53px;
+    font-size: 48px;
+    font-family: "IM FELL English";
+    width: 419px;
+    height: 101px;
+  }
+.text-div {
+    top: 386px;
+    left: 355px;
+    font-size: 36px;
+    font-family: "IM FELL English";
+    width: 1085px;
+    height: 335px;
+  }
+.address-div{
+    top: 630px;
+    left: 337px;
+}
+.images-1-icon,
+.ok-1-icon {
+  position: absolute;
+  top: 619px;
+  left: 263px;
+  width: 43px;
+  height: 43px;
+  object-fit: cover;
+}
+.images-1-icon {
+  top: 683px;
+  left: 242px;
+  width: 91px;
+  height: 85px;
+  mix-blend-mode: color-burn;
+}
+.message,
+.time-icon {
+  position: absolute;
+  top: 788px;
+  left: 262px;
+  width: 56px;
+  height: 44px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.time-icon{
+  top: 870px;
+  left: 265px;
+  width: 50px;
+  height: 53px;
+}
+.num,
+.mail-div,
+.time {
+  position: absolute;
+  top: 880px;
+  left: 355px;
+  display: inline-block;
+  width: 352px;
+  height: 23px;
+  text-shadow:  rgba(0, 0, 0, 0.25);
+}
+.num,
+.mail-div {
+  top: 1000px;
+  left: 500px;
+  width: 400px;
+  height: 10px;
+}
+.mail-div {
+  top: 10px;
+  left: 354px;
+  width: 567px;
+  height:10000px
+}
+.logo-img{
+    position: absolute;
+    top: 870px;
+    left: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.contact-info-div,
+.text-div,
+.address-div {
+  position: absolute;
+  display: inline-block;
+  text-shadow:  rgba(0, 0, 0, 0.25);
+}
+.num,
+.mail-div {
+  top: 707px;
+  left: 337px;
+  width: 409px;
+  height: 47px;
+}
+.image-div {
+  position: relative;
+  width: 100%;
+  height: 1048px;
+  overflow: hidden;
+  background-image: url(../../public/contact@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-family: "IBM Plex Serif";
+}
+

@@ -1,0 +1,12 @@
+ .bedroom-interior-div {
+  position: absolute;
+  top: 325px;
+  left: 107px;
+  font-size: 40px;
+  display: inline-block;
+  width: 313px;
+  height: 45px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+

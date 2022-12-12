@@ -1,0 +1,184 @@
+ul{
+    height: 80px;
+    top:auto;
+}
+li{
+    background-color:  rgb(161, 172, 181);;
+    display: inline-block;
+    padding: 00 170px;
+    height: 80px;
+    line-height: 70px;
+    top:auto;
+    cursor:pointer;
+}
+.back-hall-img{
+    position: relative;
+    width: 100%;
+    height: 1048px;
+    overflow: hidden;
+    background-image: url("D:\React Js\sanjaym\src\public\Living Hall.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: "IBM Plex Serif";
+}
+.hall-text {
+    position: absolute;
+    top: 170px;
+    right:540px;
+    font-size:40px;
+    display:inline-block;
+    width:auto;
+    height:auto;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:salmon;
+}
+.hall1{
+    position: absolute;
+    top: 300px;
+    right: 70px;
+    border-radius: 60px;
+    width: 394.21px;
+    height: 307.21px;
+    object-fit: auto;
+    object-position: 100%;
+    image-rendering: auto;
+}
+.hall2{
+    position: absolute;
+    top: 300px;
+    right: 550px;
+    border-radius: 60px;
+    width: 394.21px;
+    height: 307.21px;
+    object-fit: auto;
+    object-position: 100%;
+    image-rendering: auto;
+}
+.hall3{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    border-radius: 60px;
+    width: 394.21px;
+    height: 307.21px;
+    object-fit: auto;
+    object-position: 100%;
+    image-rendering: auto;
+}
+.hall1-info{
+    position: absolute;
+    top: 640px;
+    left: 71px;
+    font-size: 32px;
+    font-family:"Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" ;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 399px;
+    height: 139px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color:black;
+    
+}
+.hall2-info{
+    position: absolute;
+    top: 640px;
+    right: 550px;
+    font-size: 32px;
+    font-family:"'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 399px;
+    height: 139px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color:black;
+}
+.hall3-info{
+    position: absolute;
+    top: 640px;
+    right: 71px;
+    font-size: 32px;
+    font-family: "Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 399px;
+    height: 139px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color:black;
+}
+.rectangle1,
+.rectangle2,
+.rectangle3 {
+  position: absolute;
+  top: 950.67px;
+  right: 1125.09px;
+  background-color: #d9d9d9;
+  width: 285px;
+  height: 45px;
+  transform: rotate(0.22deg);
+  transform-origin: 0 0;
+  
+}
+.rectangle2,
+.rectangle3 {
+  top: 955.25px;
+  left: 1140.1px;
+  
+}
+.rectangle3 {
+  top: 950.44px;
+  left: 620.1px;
+}
+.text1 {
+    top: 950px;
+    left: 156.09px;
+    font-size: 36px;
+    font-family: "IM FELL DW Pica SC";
+    display: inline-block;
+    width: 190px;
+    height: 10px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgb(240, 170, 42);
+    cursor: pointer;
+
+}
+  .text2 {
+    top: 960px;
+    right: 140.09px;
+    font-size: 36px;
+    font-family: "IM FELL DW Pica SC";
+    display: inline-block;
+    width: 190px;
+    height: 200px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgb(240, 170, 42);
+    cursor: pointer;
+  }
+  .text3 {
+    top: 950px;
+    left: 670.08px;
+    font-size: 36px;
+    font-family: "IM FELL DW Pica SC";
+    display: inline-block;
+    width: 190px;
+    height: 10px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color:rgb(240, 170, 42);
+    cursor: pointer;
+  }
+.text1,
+.text2,
+.text3 {
+  position: absolute;
+  transform-origin: 0 0;
+}
+

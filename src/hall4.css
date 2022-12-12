@@ -1,0 +1,95 @@
+ul{
+    height: 80px;
+    top:auto;
+}
+li{
+    background-color:  rgb(161, 172, 181);;
+    display: inline-block;
+    padding: 00 170px;
+    height: 80px;
+    line-height: 70px;
+    top: auto;
+    cursor:pointer;
+}
+.backgrnd-hall-img{
+    position: relative;
+    width: 100%;
+    height: 1048px;
+    overflow: hidden;
+    background-image: url("D:\React Js\sanjaym\src\public\Living Hall.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: "IBM Plex Serif";
+}
+.living-hall-img{
+    position: absolute;
+    top: 300px;
+    right: 1090px;
+    border-radius: 60px;
+    width: 394.21px;
+    height: 307.21px;
+    object-fit: auto;
+    object-position: 100%;
+    image-rendering: auto;
+}
+.hall-title,
+.p {
+    position:absolute;
+    top: 120px;
+    right: 190px;
+    font-size: 40px;
+    font-family: "IM FELL DW Pica SC";
+    white-space: pre-wrap;
+    width: 750px;
+    height: 700px;
+    color:rgb(21, 4, 4);
+}
+.living-info-text{
+    position: absolute;
+    top: 330px;
+    left: 600px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.04deg);
+    transform-origin: 0 0;
+    color:rgb(203, 94, 99);
+    width: 790px;
+    height: 600px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.det-text
+{
+    position: absolute;
+    top:600px;
+    color:black;
+    left:550px;
+    display:inline-block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.04deg);
+    transform-origin: 0 0;
+}
+.box1-img{
+    text-align: center;
+    margin-top: 360px;
+}
+.btn{
+border: 2px solid #4212ef;
+top:350px;
+background: none;
+padding: 10px 20px;
+font-size: 30px;
+font-family: "montserrat";
+cursor: pointer;
+margin: 90px;
+transition: 0.8s;
+position: relative;
+overflow: hidden;
+}
